@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 import './Game.css';
 
 function calculateWinner(squares) {
@@ -31,6 +32,10 @@ function Square(props) {
   );
 }
 
+Square.propTypes = {
+  onClick: PropTypes.func,
+  value: PropTypes.string
+}
 
 class Board extends React.Component {
   renderSquare(i) {
@@ -65,6 +70,10 @@ class Board extends React.Component {
   }
 }
 
+Board.propTypes = {
+  onClick: PropTypes.func,
+  squares: PropTypes.array
+}
 
 class Game extends React.Component {
   constructor() {
