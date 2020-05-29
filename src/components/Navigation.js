@@ -1,11 +1,24 @@
 import React from 'react';
 import './Navigation.css'
 
-const Navigation = () => {
-  return (
-    <div className='navigation'>
-    </div>
-  )
-}
+export default class Navigation extends React.Component {
+  componentDidMount() {
+    let script = document.createElement("script");
+    script.async = true;
+    script.setAttribute("src", "https://platform.twitter.com/widgets.js");
+    script.setAttribute("charset", "utf-8");
+    document.getElementById('_tw').appendChild(script);
+  }
+  componentWillUnmount() {
 
-export default Navigation;
+  }
+
+  render() {
+    return (
+      <div className='navigation'>
+        <a class="twitter-timeline" data-width="220" data-height="600" href="https://twitter.com/shinnaaaga?ref_src=twsrc%5Etfw" />
+        <div id='_tw' />
+      </div>
+    )
+  }
+}
