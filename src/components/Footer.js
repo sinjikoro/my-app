@@ -4,6 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer class='footer'>
+      © shinnaga
     </footer>
   )
 }
