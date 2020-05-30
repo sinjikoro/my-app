@@ -3,7 +3,7 @@ import './Profile.css';
 
 const Profile = () => {
   return (
-    <div class='profile'>
+    <div className='profile'>
       <div>my name is shinnaga.</div>
       <section className='social'>
         <a href='https://www.wantedly.com/users/127147823' target='_blank' rel='noopener noreferrer'>wantedly</a>
