@@ -16,7 +16,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div className='navigation'>
-        <a class="twitter-timeline" data-width="220" data-height="600" href="https://twitter.com/shinnaaaga?ref_src=twsrc%5Etfw" />
+        <a class="twitter-timeline" data-width="220" data-height="600" href="https://twitter.com/shinnaaaga?ref_src=twsrc%5Etfw">twitter</a>
         <div id='_tw' />
       </div>
     )
