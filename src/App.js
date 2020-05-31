@@ -10,16 +10,16 @@ import {
 
 const App = () => {
   return (
-    <Router>
-      <body>
-        <Header />
-        <main>
-          <Content />
-          <Navigation />
-        </main>
-        <Footer />
-      </body>
-    </Router>
+    <React.Fragment>
+      <Router>
+          <Header />
+          <main>
+            <Content />
+            <Navigation />
+          </main>
+          <Footer />
+      </Router>
+    </ React.Fragment>
   )
 }
 
