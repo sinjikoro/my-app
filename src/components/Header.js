@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import Toolbar from '@material-ui/core/Toolbar';
-import Link from '@material-ui/core/Link';
 
 export default function Header(props) {
   const {title, menu} = props;
@@ -19,7 +19,7 @@ export default function Header(props) {
           <li><Link to="/profile"><Button color='Primary'>profile</Button></Link></li>
           <li><Link to="/profile"><Button color='Primary'>profile</Button></Link></li>
           <li><Link to="/profile"><Button color='Primary'>profile</Button></Link></li>
-          <li><Link to="/profile"><Button color='Primary'>aaa</Button></Link></li>
+          <li><Link to="/profile"><Button color='Primary'>profile</Button></Link></li>
           <li><Link to="/profile"><Button color='Primary'>profile</Button></Link></li>
           <li><Link to="/profile"><Button color='Primary'>profile</Button></Link></li>
           <li><Link to="/profile"><Button color='Primary'>profile</Button></Link></li>

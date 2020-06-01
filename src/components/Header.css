@@ -10,6 +10,7 @@ div #head {
 
 .header_nav {
   font-size: 16px;
+  white-space: nowrap;
 }
 
 .header_nav li {
