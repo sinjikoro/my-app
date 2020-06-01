@@ -8,16 +8,16 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 
-const menu = [
-  {title: 'Game', url:'/game'},
-  {title: 'Profile', url:'/profile'}
+const menus = [
+  {title: 'Game', url: '/game'},
+  {title: 'Profile', url: '/profile'},
 ];
 
 const App = () => {
   return (
     <React.Fragment>
       <Router>
-          <Header title='shinnaga page' menu={menu} />
+          <Header title='shinnaga page' menus={menus} />
           <main>
             <Content />
             <Navigation />
