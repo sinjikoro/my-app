@@ -7,6 +7,7 @@ import './App.css';
 import {
   BrowserRouter as Router
 } from 'react-router-dom';
+import Box from '@material-ui/core/Box';
 
 const menus = [
   {title: 'Game', url: '/game'},
@@ -18,10 +19,10 @@ const App = () => {
     <React.Fragment>
       <Router>
           <Header title='shinnaga page' menus={menus} />
-          <main>
+          <Box className='main'>
             <Content />
             <Navigation />
-          </main>
+          </Box>
           <Footer />
       </Router>
     </ React.Fragment>
