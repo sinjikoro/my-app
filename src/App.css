@@ -1,11 +1,14 @@
+html {
+  background-color: #ffffff;
+}
+
 .header-nav {
   position: sticky;
   top:0;
-  background-color: #ddd;
+  background-color: #ffffff;
 }
 
 .main {
   display: flex;
   min-height: 100vh;
-  margin: 10px 0 10px 0;
 }
