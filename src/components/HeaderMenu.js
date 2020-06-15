@@ -11,7 +11,7 @@ export default function HeaderMenu(props) {
     <Toolbar>
       <ul className="header_nav">
         {menus.map((menu) => (
-          <li><Link to={menu.url}><Button color='Primary'>{menu.title}</Button></Link></li>
+          <li><Link to={menu.url}><Button>{menu.title}</Button></Link></li>
         ))}
       </ul>
   </Toolbar>

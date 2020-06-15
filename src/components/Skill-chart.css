@@ -1,0 +1,18 @@
+.chart {
+  display: flex;
+}
+
+.skill-name {
+  width: 100px;
+}
+
+.chart-frame {
+  background-color: #ddd;
+  width: 300px;
+}
+
+.chart-bar {
+  display: block;
+  background-color: #361;
+  width: 60%;
+}

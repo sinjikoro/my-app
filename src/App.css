@@ -1,11 +1,6 @@
-html {
-  background-color: #ffffff;
-}
-
 .header-nav {
   position: sticky;
   top:0;
-  background-color: #ffffff;
 }
 
 .main {
