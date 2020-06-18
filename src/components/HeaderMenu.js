@@ -1,8 +1,8 @@
 import React from 'react';
 import { Toolbar, Button } from '@material-ui/core';
 import { Link } from 'react-router-dom/cjs/react-router-dom';
-import PropTypes from 'prop-types';
 import './HeaderMenu.css';
+import PropTypes from 'prop-types';
 
 export default function HeaderMenu(props) {
   const {menus} = props;

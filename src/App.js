@@ -9,6 +9,7 @@ import './App.css';
 import {
   BrowserRouter as Router
 } from 'react-router-dom';
+import TestButton from './components/Shared/Button'
 
 const menus = [
   {title: 'Game', url: '/game'},
@@ -21,6 +22,7 @@ const App = () => {
       <Router>
         <Header title='shinnaga page' />
         <div className='header-nav'><HeaderMenu className='headerMenu' menus={menus} /></div>
+        <TestButton>aaa</TestButton>
         <Box className='main'>
           <Content />
           <Navigation />
